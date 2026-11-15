@@ -45,17 +45,32 @@
         div{
             margin-top: 10px;
             margin: 20px;
+            background-color: white;
 
+        }
+        section.foto > img{
+           width: 50%;
+           display: block;
+           margin: auto;
+           
+
+        }
+        section.foto{
+            
+            padding: 20px;
         }
         p{
             font-family: 'gen';
             font-weight: lighter;
             color: rgb(41 41 41 );
+            text-align: justify
 
         }
         body{
             display: grid;
             background-color: var(--dourado);
+            margin: none;
+            padding: none;
 
 
         }
@@ -63,7 +78,9 @@
             background-color: white;
             width: 90%;
             margin: auto;
+            
         }
+        
         h1{
             font-family: 'gen';
             font-weight: normal;
@@ -73,6 +90,32 @@
         h1#titulopr{
         color: var(--dourado);    
 
+        }
+        footer{
+            font-size: 1.3em;
+            background-color: var(--azul);
+            text-align: center;
+            margin: 0px;
+            padding: 20px;
+
+        }
+        dfn{
+            
+        }
+        @media screen and (min-widht: 768px){
+        div{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }    
+        section{
+        
+        }
+        section.foto{
+        
+        }
+            
         }
     </style>
 </head>
@@ -93,11 +136,11 @@
         <div id="d1" >
             <section>
                 <h1 id="titulopr">Genshin impact</h1>
-                <p>Genshin impact (Chinês  ,原神 Yuánshén ) e (Japônes 原神 Genshin) é
+                <p>Genshin impact (Chinês  ,原神 Yuánshén ) e (Japônes, 原神 Genshin) é
                 um jogo eletrônico lançado inicialmente em 28 de setembro
                 de 2020, sendo um RPG de ação com elementos de exploração e gacha lançado
                 em dispositivos móveis, playstation 4, playstation 5 e XBOX series X/S; foi criado
-                pela Hoyoverse no ocidente, conhecida como Mihoyo na china, a jogabalidade 
+                pela <a href="#">Hoyoverse</a> no ocidente, conhecida como Mihoyo na china, a jogabalidade 
                 consiste num sistema de até 4 personagens jogaveis simuntâneamente com um sistema
                 de energia elemental que combina as habilidades dos diferentes personagens para o combate;
                 esse combate é usado num mundo aberto com sistemas de exploração baseados em <a href="#" target="_blank">Zelda breath of the wild</a>
@@ -106,17 +149,21 @@
                 atualizações frequentes com conteúdos novos.
                 </p>
             </section>
-        </div>
-        <div>
+            <section class="foto">
+            <img  src="imagens/genshin-impact-hqdph.png" alt="Genshin impact titulo" >
+            
+            </section>
+        
             
         </div>
-        <div></div>
+        
 
     </main>
 
 
 
     <footer>
+      Site criado por agatha silva como um exercício do HTML5 e CSS3 
 
     </footer>
     
