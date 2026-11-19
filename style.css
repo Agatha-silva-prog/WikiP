@@ -90,6 +90,7 @@
             font-weight: normal;
             font-size: 2.3em;
             margin-bottom: 10px;
+            color: var(--dourado);
         }
         h1#titulopr{
         color: var(--dourado);    
@@ -103,6 +104,22 @@
             padding: 20px;
 
         }
+        span{
+            background-color: black;
+            color: white;
+            
+            margin-bottom: 10px;
+            
+        }
+        p.spoiler{
+            color: white;
+            
+        }
+        p.spoiler:hover{
+            color: rgb(41 41 41);
+            
+        }
+        p.spoiler:hover
         
         @media screen and (min-widht: 768px){
         div.d1{
