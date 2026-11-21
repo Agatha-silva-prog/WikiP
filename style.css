@@ -49,10 +49,11 @@
         }
         div#d4 > section.foto > img{
             width: 80%;
+            margin: auto;
             
         }
         div#d4 > section.foto{
-            margin-right: 5%;
+            
         }
         section.foto > img{
            width: 50%;
@@ -114,6 +115,7 @@
             text-align: center;
             margin: 0px;
             padding: 20px;
+            font-weight: bold;
 
         }
         span{
