@@ -47,6 +47,9 @@
             margin-top: 5px;
             
         }
+        div#d4 > section.foto > img{
+            width: 80%;
+        }
         section.foto > img{
            width: 50%;
            display: block;
