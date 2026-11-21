@@ -43,6 +43,9 @@
             border-radius: 10px;
 
         }
+        div#d1{
+            margin-top: 0px;
+        }
         div#d3 > section.foto >img{
             margin-top: 5px;
             
@@ -80,6 +83,9 @@
             margin-top: 10px;
 
         }
+        div > section > p{
+            text-indent: 20px;
+        }
         body{
             display: grid;
             background-color: var(--dourado);
@@ -95,6 +101,7 @@
             margin: auto;
             background-color: rgb(199, 199, 199);
             padding: 5px;
+            padding-top: 0px;
             
         }
         
@@ -171,9 +178,21 @@
             
             
         }
+        div#d3 > section.foto{
+            width: 50%;
+            max-width: 505px;
+
+        }
+        div#d3 > section.text{
+            width: 50%;
+            max-width: 780px;
+
+        }
         div#d3{
             margin: auto;
             margin-bottom: 40px;
-            max-width: 1250px;
+            padding-left: 30px;
+            
         }
+        
     }
