@@ -49,7 +49,10 @@
         }
         div#d4 > section.foto > img{
             width: 80%;
-            margin-right: 20%;
+            
+        }
+        div#d4 > section.foto{
+            margin-right: 5%;
         }
         section.foto > img{
            width: 50%;
