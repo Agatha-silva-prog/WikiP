@@ -36,7 +36,7 @@
        
         div{
             margin-top: 10px;
-            margin: 5px;
+            
             background-color: white;
             padding: 10px;
             margin-bottom: 50px;
@@ -85,7 +85,8 @@
             
             width: 90%;
             margin: auto;
-            background-color: rgb(199, 199, 199)
+            background-color: rgb(199, 199, 199);
+            padding: 5px;
             
         }
         
@@ -161,8 +162,9 @@
             
             
         }
-      
-       
-        
-            /*1338px*/
+        div#d3{
+            margin: auto;
+            margin-bottom: 40px;
+            max-width: 1250px;
         }
+    }
