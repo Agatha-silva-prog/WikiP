@@ -43,7 +43,10 @@
             border-radius: 10px;
 
         }
-        
+        div#d3 > section.foto >img{
+            margin-top: 5px;
+            
+        }
         section.foto > img{
            width: 50%;
            display: block;
@@ -130,18 +133,36 @@
 
         }
         
-        @media screen and (min-widht: 768px){
-        div.d1{
+        @media screen and (min-width: 800px){
+        div{
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
+            
             
         }    
-        section{
+        section.text{
+            max-width: 50%;
+            margin-left: 20px;
         
         }
-        section.foto{
+        section.text > p {
+            padding: 10px;
+        }
+        section.foto {
+            width: 100%;
+
         
         }
+        div#d3 > section.foto > img{
+            padding-top: 40%;
+            width: 70%;
             
+            
+            
+        }
+      
+       
+        
+            /*1338px*/
         }
