@@ -47,8 +47,8 @@
             margin-top: 5px;
             
         }
-        div#d4 > section.foto {
-            width: 70%;
+        div#d4 > img {
+            max-width: 390px;
            
             
         }
