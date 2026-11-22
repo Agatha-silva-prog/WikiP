@@ -149,6 +149,12 @@
 
 
         }
+        footer > a {
+            color: black;
+        }
+        footer >a:hover{
+            text-decoration: underline;
+        }
         
         @media screen and (min-width: 800px){
         div{
