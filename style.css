@@ -200,5 +200,8 @@
             padding-left: 30px;
             
         }
-        
+        body{
+            display: grid;
+            
+        }
     }
